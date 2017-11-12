@@ -77,5 +77,4 @@ READERS = {"html": None}
 ARTICLE_EXCLUDES = [
     'slides/earth-modelling.html'
     ]
-
     
