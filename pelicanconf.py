@@ -33,3 +33,41 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# static files
+STATIC_PATHS = [
+    'slides',
+    'slides/css/theme',
+    'slides/lib/css',
+    'slides/lib/js',
+    'slides/js',
+    'slides/plugin/markdown',
+    'slides/plugin/highlight',
+    'slides/plugin/notes',
+    ]
+
+EXTRA_PATH_METADATA = {
+    'slides/css/theme/night.css': {'path': 'slides/css/theme/night.css'},
+
+    'slides/js/reveal.js': {'path': 'slides/js/reveal.js'},
+    
+    'slides/lib/css/zenburn.css': {'path': 'slides/lib/css/zenburn.css'},
+    'slides/lib/js/head.min.js': {'path': 'slides/lib/js/head.min.js'},
+    'slides/lib/js/classList.js': {'path': 'slides/lib/js/classList.js'},
+
+    'slides/plugin/markdown/marked.js': {'path':
+    'slides/plugin/markdown/marked.js'},
+    
+
+    'slides/plugin/markdown/markdown.js': {'path':
+    'slides/plugin/markdown/markdown.js'},
+
+    'slides/plugin/highlight/highlight.js': {'path':
+    'slides/plugin/highlight/highlight.js'},
+
+    'slides/plugin/notes/notes.js': {'path':
+    'slides/plugin/notes/notes.js'},
+
+    'slides/earth-modelling.html': {'path': 'slides/earth-modelling.html'}
+    
+    }
