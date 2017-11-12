@@ -71,3 +71,11 @@ EXTRA_PATH_METADATA = {
     'slides/earth-modelling.html': {'path': 'slides/earth-modelling.html'}
     
     }
+
+READERS = {"html": None}
+
+ARTICLE_EXCLUDES = [
+    'slides/earth-modelling.html'
+    ]
+
+    
