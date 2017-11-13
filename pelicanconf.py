@@ -68,6 +68,8 @@ EXTRA_PATH_METADATA = {
     'slides/plugin/notes/notes.js': {'path':
     'slides/plugin/notes/notes.js'},
 
+    'slides/plugin/math/math.js' : {'path': 'slides/plugin/math/math.js'}
+
     'slides/earth-modelling.html': {'path': 'slides/earth-modelling.html'}
     
     }
