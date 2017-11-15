@@ -68,15 +68,19 @@ EXTRA_PATH_METADATA = {
     'slides/plugin/notes/notes.js': {'path':
     'slides/plugin/notes/notes.js'},
 
-    'slides/plugin/math/math.js' : {'path': 'slides/plugin/math/math.js'}
+    'slides/plugin/math/math.js' : {'path': 'slides/plugin/math/math.js'},
 
-    'slides/earth-modelling.html': {'path': 'slides/earth-modelling.html'}
-    
+    'slides/earth-modelling.html': {'path': 'slides/earth-modelling.html'},
+
+    'slides/learning-from-models.html': {'path': 'slides/learning-from-models.html'}
+
     }
 
 READERS = {"html": None}
 
 ARTICLE_EXCLUDES = [
-    'slides/earth-modelling.html'
+    'slides/earth-modelling.html',
+    'slides/learning-from-models.html'
+
     ]
     
