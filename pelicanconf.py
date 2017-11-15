@@ -36,6 +36,7 @@ DEFAULT_PAGINATION = 10
 
 # static files
 STATIC_PATHS = [
+    'images',
     'slides',
     'slides/css/theme',
     'slides/lib/css',
