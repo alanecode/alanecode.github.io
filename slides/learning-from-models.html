@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+	  <meta charset="utf-8">
+
+	  <title>Learning from models</title>
+	  
+	  <link rel="stylesheet" href="css/reveal.css">
+	  <link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+	  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+	  <style>
+	    .parent {
+	    position: relative;
+	    top: 0;
+	    left: 0;
+	    }
+	    .image1 {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    }
+	    .image2 {
+	    position: relative;
+	    top: 110px;
+	    left: 250px;
+	    }
+	  </style>
+		
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+		  <div class="slides">
+                    <!-- Slides are separated by newline + three dashes + newline, 
+			 vertical slides identical but two dashes -->
+                    <section data-markdown data-separator="^\n---\n$"
+			     data-separator-vertical="^\n--\n$"
+			     data-separator-notes="^Note:">
+                      <script type="text/template">
+			## Learning from models
+			<img src="../images/zoolander_school.jpg"
+			     alt="Model talking about a model">
+			### Andrew Lane
+			#### andrew.lane@kcl.ac.uk
+
+			---
+
+			### Why do scientists build models?
+
+			--
+
+			### Why do scientists build models?
+
+			- Prediction
+
+			- Communication
+
+			- Explain observations
+
+			- Motivate experimental design
+
+			Note:
+
+			prediction: risk, planning (weather), obvious
+			applications in economics
+
+			communication: maps, photographs, schematics
+			
+			--
+
+			### Why do scientists build models?
+
+			- Prediction
+
+			- Communication
+
+			- **Explain observations**
+
+			- **Motivate experimental design**
+
+			Note:
+
+			I'm going to focus on the bottom two because I think
+			they highlight an interesting point about how the use
+			of models varies between theoretical physics and in the
+			earth sciences
+
+			---
+
+			### Explain observations
+
+			<img src="../images/solar-system.webp"
+			     alt="Solar system"
+			     width="120%">
+
+			Note:
+
+			explaining existing data is a fundamental application
+			of science. Our explanation of why we go through a
+			cycle of light and dark once a day involves model of
+			earth turning on its axis.
+
+
+			Model of solar system explaining day and night
+
+			Complexity means we can't use mathematical analysis to
+			derive insights from first principles.
+
+			---
+
+			### Motivate experimental design
+
+			
+			<div class="parent">
+
+			  <img class="image1"
+			       src="../images/cern-atlas.jpg"
+			       alt="Photo of CERN's Atlas experiment"
+			       width="60%"/>
+
+			  <img class="image2"
+			       src="../images/cern-bike.jpg"
+			       alt="Photo of a man riding a bike around CERN"
+			       width="60%"/>
+			</div>
+
+
+			--
+
+			### Motivate experimental design
+
+			<img src="../images/higgs-field.jpg"
+			     alt="Schematic of Higgs potential">
+
+			Note:
+
+			Reactions are complicated but not complex.
+
+			Yes lots of background theory goes into understanding
+			how particles couple to the potential etc, but part of
+			the reason for it being a useful theory was that it was
+			easy to understand and made a measurable prediction:
+			the mass of the boson responsible for coupling the
+			higgs field to matter.
+
+			- Difficult to write simple analytical expressions
+			describing complex systems because of interacting
+			terms.
+
+			- E.g. Bololoubov transformation
+
+			It is mysterious how QM always seems to have an answer
+			for things like this. Makes me think it's a distraction
+			orchestrated by the aliens running our simulation to
+			stop us getting to the bottom of everything.
+
+			An electrical current is an uncountable number of
+			identical particles interacting with an electromagnetic
+			field. Effects of interactions with each other and the
+			other particales in conductors are negligible.
+
+			The fact that mathematics has proved so useful in
+			solving problems in physics since the 17th century is
+			extrorinary, but it can become unwieldy as we start
+			trying to represent complex systems (end up getting
+			lots of terms)
+
+			Typical physical system (think of a test particle in a
+			field). Lunatics like Joe Basheen, Davide and Jason
+			find ways of working on problems in many-body quantum
+			mechanics
+
+			---
+
+			### First principles
+
+			__Tobler's First law of Geography__
+
+			"everything is related to everything else, but near
+			things are more related than distant things."
+
+			Note:
+			- lack of reference to quantity
+			- COMPLEXITY HAS PRECLUDED DEVELOPMENT OF THEORY
+
+			--
+
+			### First principles
+
+			__Tobler's First law of Geography__
+
+			"everything is related to everything else, but near
+			things are more related than distant things."
+			
+
+			----
+
+
+			__First law of thermodynamics__
+
+			$\Delta U = Q - W $
+
+			---
+
+			### Process and pattern
+
+			Often in Earth science we have observe __patterns__ but
+			don't have a clear understanding of the underlying
+			__process__
+
+			--
+
+			### Process and pattern
+
+			<img src="../images/navarres_pollen.jpg"
+			     alt="Example pollen diagram"
+			     width="50%">
+
+			(Carrion et al. 2010)
+
+
+			---
+
+			### Direct experimentation precluded by expense
+			- Kevin Watt's WrEN project (natural experiment)
+			- Harvard forest (one particular ecosystem, not repeatable)
+
+			---
+
+			### Generative modelling
+
+			--
+
+			### Pattern Orientated Modelling
+
+			<img src="../images/perry2016-POM.jpg"
+			     alt="Example pollen diagram"
+			     width="60%">
+
+			(Perry et al. 2016)
+			
+		      </script>
+
+		      			<!--
+
+			### CMB vs pollen data comparison
+
+			---
+
+			### Observation leading theory
+			- Pidgeon shit in the antenna
+			- Gave weight to hypothesis (twice! -- importance of
+			paying attention to data).
+
+			---
+
+			
+			### Theory leading experiment
+			- CERN
+			- Compare cost of cern (considering motivating theory) and
+			no. Experiments they'll do there with back of envelope
+			calculation of cost of doing a live experiment using
+			wildfire (land burned, no. people to evacuate)
+
+			### Discriminative vs Generative modelling
+			- Perry2016
+			- Contrast discriminative model in rare events to
+			Peterson2002.
+
+
+			--- -->
+
+
+
+            </div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+			{ src: 'lib/js/classList.js',
+			condition: function() { return !document.body.classList; } },
+
+			{ src: 'plugin/markdown/marked.js',
+			condition: function() { return !!document.querySelector(
+			'[data-markdown]' ); } },
+
+			{ src: 'plugin/markdown/markdown.js',
+			condition: function() { return !!document.querySelector(
+			'[data-markdown]' ); } },
+			
+			{ src: 'plugin/highlight/highlight.js',
+			async: true, callback: function() {
+			hljs.initHighlightingOnLoad(); } },
+
+			{ src: 'plugin/notes/notes.js' },
+
+			{ src: 'plugin/math/math.js', async: true }
+
+			],
+
+			math: {
+			mathjax:
+		'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+
+			config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+			}
+			});
+
+		</script>
+
+	</body>
+</html>
