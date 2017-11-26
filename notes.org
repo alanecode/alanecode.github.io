@@ -1,0 +1,346 @@
+* ajlane.me
+Single front page displaying short bio, simple graphics 
+** hosting
+- [ ] buy web hosting with basic lamp stack
+
+** graphics
+
+- tree
+- equation
+- graph (heat plot?)
+
+
+*** mobile optimization
+- learn how to optimize 
+
+** content
+*** Research interests
+**** Academic
+- people can't access most journals
+- people often can't understand those they can access.
+
+I'm unlikely to post too much about this stuff because
+most of my day-to-day work concerns trying to write about it in the style
+accepted by peer-reviewed academic journals. That means lots of jargon and
+references to follow up on, i.e. reading it will feel like work too. 
+
+When I (fingers tightly crossed) start getting work on these interests
+published I'll post links on this site. In the mean time my Twitter account
+@alanescience will hopefully give a flavour of what I've been reading about.
+
+***** Human-environment interactions at the landscape scale
+Particularly interested in the relationships between:
+- The abundance of plants with particular evolutionary traits
+- Human land use/ land cover change
+- Natural disturbance, i.e. fire
+- Climate
+
+***** Design of experiments involving simulations
+#SimExperiments
+- Simulation as a form of experiment
+- Agent Based Modelling
+
+***** Statistical mechanics of socio-ecological systems
+#StatMech
+- phase space
+- non equilibrium
+
+**** Open Source
+These are the things I work on for which there is no real formal recognition in
+academia. Nevertheless, they support my academic work, they are relatively
+hands-on and fun and, the way I see it, if I'm doing publicly funded work it
+might as well be published somewhere.
+
+***** Data visualisation 
+Visualisation of high dimensional data describing complex systems
+****** scientists learn by looking at graphs and diagrams
+JavaScript should help with this. Organisation of structured data
+***** Recording and organising research
+***** Public engagement in science
+***** Communicating research
+****** literate coding
+
+
+
+
+
+* antisocialscience.com
+** colours
+[[http://www.colourlovers.com/palette/1021947/modelo_74][modelo 74]]
+** Front page
+*** Header background
+- [[scp -P 2222 /home/andrew/wp-config.php localhost:/var/www/][URL]]
+**** Neauvau Riche
+dimensions 1260 x 490
+
+**** Lovecraft 
+dimensions 1280 x 444
+*** Title
+[ANTI] SOCIAL SCIENCE/ {anti} social science
+*** Tagline
+Thinking about humans' relationship with nature using computers, equations and
+lots of coffee.
+
+** Presentations section/ category
+- Upload slides and include short gist of the topic
+** Top links
+- Use [[http://www.inc.com/john-rampton/20-sites-with-free-images-for-your-blog-or-social-media-posts.html][free stock images]] for blog posts and header image
+** Dwell on name
+** design logo in inkscape
+*** integral sign
+#+LATEX_HEADER: \DeclareMathSizes{20}{20}{20}{20}
+#+LATEX_HEADER: \newcommand{\infmal}[1]{\,\mathrm{d}#1\,}
+#+LATEX_HEADER: \usepackage{relsize}
+\[
+ \int f\left(\mathlarger{\mathlarger{\mathlarger{x}}}}\right) \, g\left(\mathlarger{\mathlarger{\mathlarger{y}}}\right) \infmal{t}
+\]
+** Change tab logo
+** Pages
+*** email to Bob :email:
+- not really surewhat tone to strike with former client
+- your email was part of what inspired me to write a blog
+*** [#A] About
+I'm a PhD student in the Geography department at King's College London. I'm
+interested in understanding how humans interact with the other organisms in the
+landscapes in which we live over the course of thousands of years. My previous
+studies were mainly in mathematical physics and the philosophy of science. I
+owe it to the hard work and open minds of all those involved in the brilliant
+CANES programme that I can now add ecology to the subjects I have worked with.
+
+I'm writing mainly for the benefit of people who aren't at a university, but
+who are interested in what a graduate science student who works from a desk
+(rather than a lab or study site) does all day. What I hope to get from it is a
+way of keeping track of ideas before they go all hazy with time, and an
+incentive to write in complete sentences more often. It also strikes me as odd
+that research paid for with tax-payer money could be exclusively written and
+published without considering what people who don't regularly read academic
+journals might think. I'm funded by the EPSRC because I'm lucky enough to have
+interests which align with theirs, and they're awesome. There are reasons I go
+into in this post for why (I think) it's necessary for most of my output to be
+written in the rather dense style accepted by journals. On the other hand
+there's lots of interesting stuff I come across in /talks (stefan Kuhr talk)/
+and while reading or /tinkering with computers (wavelets, database)/ which
+either isn't my speciality or isn't the kind of thing journals publish. That's
+the meat of what I intend to post.
+
+Apart from trying to earn my stripes as a scientist, I also love reading
+fiction, cooking and +going to the pub+ engaging in London's burgeoning craft
+beer scene. So I may end up talking about those too.
+
+
+**** old notes
+Writing a blog is a natural way to fullfil my need to articulate my work to a
+third party. By imagining it as one half of a dialogue, I can say things which
+are difficult to say when trying to write them in an academic style.
+
+
+some of my notes would require far too much explaining for here. I'm going to
+call those my `thesis' and put other stuff which is worth remembering properly
+on here. 
+
+Realise writing is something which is improved by practice, Not something which
+has a fixed capacity which I need to save for writing down fully formed
+ideas. Writing is a form of structural representation. There are certain things
+about the written word which make it good for communicating ideas. Poetry,
+novels and news report spring to mind. They either describe the linear
+occurance of events which reflect our personal,every day experiences which we
+cocieve of as discrete events. By contrast, in the physical world there are
+lots of systems which 
+
+
+
+
+
+
+
+
+
+*** Codelets
+- Small fragments of code and surrounding explanation, online mainly for my own
+  benefit
+- Useful to have somewhere to host notebooks
+- Might not even provide links on the site itself to start with.
+** Articles
+*** Societal divisions since brexit/ anger
+http://www.economist.com/news/essays/21649050-badly-educated-men-rich-countries-have-not-adapted-well-trade-technology-or-feminism
+
+- Didn't get much out of school for one reason or another
+- Find they're not as valued as their similarly skilled parents. 
+
+- I can't really take credit for my talents I was born with, and I certainly
+  can't take credit for my parent's -- especially my mother's -- considered and
+  determined efforts in cultivating them.
+
+- We can't just tell them that they're wrong, and then insist on presenting
+  arguments which they can't understand.
+*** [#A] Shoulders of giants
+Thanks to people who set examples
+Pinned post
+**** Ellen
+**** David
+*** [#A] Breaching the ivory tower
+****  Open source is great
+summary of 
+**** Need for academia?
+- Academia needs to happen for concentrated delivery of ideas
+
+Style accepted by peer-reviewed academic journals involves lots of words jargon
+and references to follow up on, i.e. reading it feels like work.
+
+***** explain why most academic work has to be in journals
+
+***** Open access
+at leas accessible to eveeyone for free if they can read it
+journal access comes through the library
+don't need alibrary to research
+**** Applications of open source to academia
+***** Serge's talk
+***** visualisation in general
+
+*** Feynmann shrugged
+**** What is the role of scientists in society?
+***** Create
+***** Engage with public, teach
+- This is where my opinion diverges from Rand's.
+- Basic scientific research benefits everyone eventually but doesn't generate
+  value on its own
+- Needs to be funded by taxes -- society needs to buy in, otherwise it doesn't
+  work.
+
+**** What does society owe to science?
+- Improvement in living conditions
+
+*** [#B] Geography, Simulation and Risk			 :talks:applications:
+*** [#A] Quantum Gas Microscopes and Analogue Simulation	      :talks:
+    Stefan Kuhr
+**** Brief summary of his key results
+
+**** Intro to analogue simulators
+- mention BEC simulator of black holes
+**** Why can't similar approaches work in ecology?
+- complexity
+*** [#B] Sustainable development goals			       :applications:
+*** [#B] Emacs Org mode tag structure				:orgResearch:
+emacs itself is written in a purpose designed programming language called Emacs
+Lisp, or Elisp. Elisp allows for the programmatic manipulation of list-based
+structures (such as lines in a file) and a melding between code and data. For
+example, using org (one of Emacs' many modes) one can assign tags to each node
+in a graph of ideas.  
+
+[come up with example, needs to be plausible and simple] 
+
+Using idea tree diagrams, we can visually represent the detailed internal
+structure of a document such as a journal article, thesis or book. Show density
+of authors from different fields alongside `timeline' of sections
+
+*** [#A] Wavelets				       :code:machineLearning:
+*** [#B] Advantages of cross disciplinary CDT
+*** [#B] A Database Fit for a Scientist				:orgResearch:
+I interact with data via the file system and my own programs via  my text
+editor. Data is stored in a special database portion of my file system, and
+large portions of structured data are stored in a formal database. [diagram]
+
+Programs allow me to process and visualise the data. Another ambition is to be
+able to use the browser to visualise the data, as this will massively improve
+my ability to show this information to other people. By serving interactive
+webpages to interested people, to allow them to experience interacting with the
+data as I can, they can experience impressions of data they can't experience
+from paper, and antecedently precipitate new ideas in their minds. 
+
+
+databases- well ordered data improves the structural representation of which
+your data is a part. 
+
+
+- Description of database/ storage interface for simulation analysis
+- Could essentially serve as documentation of the API
+
+**** Overview of strategy
+When a simulation is run, it updates the metadata store in postreSQL,
+creates/ removes any required HDF5 files and updates which HDF5 files
+[external binary file object] need to be tracked by cron script. Similarly
+there should be trajectory deletion processes defined to cleanly remove all
+files and update metadata accordingly.
+
+need notion of transaction in interacting with both 
+Will need to catch all read/write errors during transaction
+
+Deal with storage of binary files on disk.build trajectory object out of
+database stored meta data and paths to special bds (binary data store)
+directory. Match between database and file system performed by python layer run
+using cron to ensure peridoical sync.
+
+postgreSQL geo features, plus HDF5 array access and manipulation. Idea is to
+have python interface through which I can just retrieve information without
+thinking about where it's going to be stored. Context will provide enough
+information to the database interface
+
+**** objects
+****** Environment
+****** Trajectory
+think of as physical representation of system in memory
+******* attributes
+parameters
+input data
+
+******* methods
+loading functions. Trajectory object could just be thought of as state of
+trajectory in memory. Should handle retrieving slices of data if user asks for
+it, and make as efficient use of memory as possible, including clearing
+up memory, closing files etc.
+
+Running functions needed to initialise payload.- function which populates the
+array in the first place - could execute a java program, for example.
+
+****** MetaTrajectory 
+All the gubbins which connects a floating point representation of a simulation
+trajectory to all of the contingent factors which produced and stored it. Dates
+and times, which version of code was used, random number seeds, etc. 
+
+MetaTrajectory extends Trajectory, or could just make it extend a numpy array. 
+
+commit id of git controlled version of code used to produce trajectory stored
+on disk. Will allow to check for differences between different versions of code
+run using the same random number seeds.
+
+******* attributes 
+time run
+dimensions of trajectory
+trajectory array 
+summary statistics
+changes since init
+
+
+******* methods
+commit changes since init
+ :code:
+*** [#C] Geocomp Gathering				     :talks:meetings:
+*** [#C] Scientific analysis in the browser		   :code:orgResearch:
+- developing web server for simulation execution and analysis.
+
+*** [#C] Ecological space 				      :visualisation:
+in turning dial on radio example, the `parameter space' is a line
+
+we know how to disprove the theory: we tune to that parameter
+**** ABM
+**** energy landscapes
+teleological view of situation. Makes sense in context of evolution, 
+*** [#C] Statistical models					      :maths:
+**** clustering
+
+* Candidate themes
+[[https://github.com/gilsondev/pelican-clean-blog/tree/ea156f8f1741e473bc0ab848b7c8898112d6ffb5][Clean blog]] (missing page links, not checked if mobile friendly)
+
+[[https://github.com/petrnohejl/MinimalXY/tree/87f0ebb57543b7810dffc9ebe05ed96bc897ffd1][MinimalXY]] mobile first, clean. default banner looks a bit strange.
+
+[[https://github.com/nairobilug/pelican-alchemy/tree/f235c81bf323e6134b01915fc9a46b5e89ac238b][Alchemy]]
+can't tell if works on mobile or not
+* CSS
+[[https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/][CSS Grid]]
+
+
+
+
+
+
+
