@@ -3,8 +3,6 @@ Modified: 2017-11-26 17:30
 Slug: projects
 Authors: Andrew Lane
 
-# Projects
-
 - Talk about the projects I'm currently involved in
 
 

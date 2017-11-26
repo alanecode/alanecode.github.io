@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Andrew Lane'
-SITENAME = u'anti-social science'
+SITENAME = u'Andrew Lane'
 SITEURL = ''
 
 PATH = 'content'
@@ -26,8 +26,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://twitter.com/alanescience'),
+                    ('github', 'https://github.com/alanecode'),
+                    ('envelope','mailto:science@ajlane.me'))
 
 DEFAULT_PAGINATION = 10
 
@@ -84,4 +85,11 @@ ARTICLE_EXCLUDES = [
     'slides/learning-from-models.html'
 
     ]
+
+
+# colour scheme for code highlights
+COLOR_SCHEME_CSS = 'tomorrow.css'
+
+# header colour
+HEADER_COLOR = '#07162B'
     
