@@ -19,16 +19,10 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
 # Social widget
 SOCIAL = (('twitter', 'https://twitter.com/alanescience'),
-                    ('github', 'https://github.com/alanecode'),
-                    ('envelope','mailto:science@ajlane.me'))
+          ('github', 'https://github.com/alanecode'),
+          ('envelope','mailto:science@ajlane.me'))
 
 DEFAULT_PAGINATION = 10
 
@@ -38,6 +32,7 @@ DEFAULT_PAGINATION = 10
 # static files
 STATIC_PATHS = [
     'images',
+    # reveal.ks stuff
     'slides',
     'slides/css/theme',
     'slides/lib/css',
@@ -49,18 +44,16 @@ STATIC_PATHS = [
     ]
 
 EXTRA_PATH_METADATA = {
+    # reveal.js core
     'slides/css/theme/night.css': {'path': 'slides/css/theme/night.css'},
-
     'slides/js/reveal.js': {'path': 'slides/js/reveal.js'},
-    
     'slides/lib/css/zenburn.css': {'path': 'slides/lib/css/zenburn.css'},
     'slides/lib/js/head.min.js': {'path': 'slides/lib/js/head.min.js'},
     'slides/lib/js/classList.js': {'path': 'slides/lib/js/classList.js'},
 
+    # reveal.js plugins
     'slides/plugin/markdown/marked.js': {'path':
     'slides/plugin/markdown/marked.js'},
-    
-
     'slides/plugin/markdown/markdown.js': {'path':
     'slides/plugin/markdown/markdown.js'},
 
@@ -72,8 +65,8 @@ EXTRA_PATH_METADATA = {
 
     'slides/plugin/math/math.js' : {'path': 'slides/plugin/math/math.js'},
 
+    # reveal.js presentations
     'slides/earth-modelling.html': {'path': 'slides/earth-modelling.html'},
-
     'slides/learning-from-models.html': {'path': 'slides/learning-from-models.html'}
 
     }
@@ -81,9 +74,9 @@ EXTRA_PATH_METADATA = {
 READERS = {"html": None}
 
 ARTICLE_EXCLUDES = [
+    # reveal.js presentations, don't try to parse as articles
     'slides/earth-modelling.html',
     'slides/learning-from-models.html'
-
     ]
 
 
@@ -92,4 +85,14 @@ COLOR_SCHEME_CSS = 'tomorrow.css'
 
 # header colour
 HEADER_COLOR = '#07162B'
+
+# -------- Not utilised in pelican-clean-blog theme -----------------
+# Blogroll
+# LINKS = (('Pelican', 'http://getpelican.com/'),
+#         ('Python.org', 'http://python.org/'),
+#         ('Jinja2', 'http://jinja.pocoo.org/'),
+#         ('You can modify those links in your config file', '#'),)
+#--------------------------------------------------------------------
+
+
     
