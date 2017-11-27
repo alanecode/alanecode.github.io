@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os
+
 AUTHOR = u'Andrew Lane'
 SITENAME = u'Andrew Lane'
 SITEURL = ''
@@ -79,12 +81,19 @@ ARTICLE_EXCLUDES = [
     'slides/learning-from-models.html'
     ]
 
-
 # colour scheme for code highlights
 COLOR_SCHEME_CSS = 'tomorrow.css'
 
 # header colour
 HEADER_COLOR = '#07162B'
+
+# custom css
+CSS_OVERRIDE = 'theme/css/ghpages.css'
+
+# custom footer
+FOOTER_INCLUDE = 'myfooter.html'
+IGNORE_FILES = [FOOTER_INCLUDE]
+EXTRA_TEMPLATES_PATHS = [os.path.dirname(__file__)]
 
 # -------- Not utilised in pelican-clean-blog theme -----------------
 # Blogroll
