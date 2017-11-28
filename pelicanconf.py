@@ -35,6 +35,10 @@ DEFAULT_PAGINATION = 10
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
+# plugins
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = ['pelican-ipynb.markup']
+
 # static files
 STATIC_PATHS = [
     'images',
