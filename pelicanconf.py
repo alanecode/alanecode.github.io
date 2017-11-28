@@ -6,6 +6,7 @@ import os
 
 AUTHOR = u'Andrew Lane'
 SITENAME = u'Andrew Lane'
+#SITEURL = 'http://ajlane.me'
 SITEURL = ''
 
 PATH = 'content'
@@ -31,9 +32,13 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
 # static files
 STATIC_PATHS = [
     'images',
+    'extra/CNAME',
     # reveal.ks stuff
     'slides',
     'slides/css/theme',
@@ -46,6 +51,7 @@ STATIC_PATHS = [
     ]
 
 EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
     # reveal.js core
     'slides/css/theme/night.css': {'path': 'slides/css/theme/night.css'},
     'slides/js/reveal.js': {'path': 'slides/js/reveal.js'},

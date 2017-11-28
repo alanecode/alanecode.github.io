@@ -5,6 +5,7 @@ Authors: Andrew Lane
 
 - Who I am
 - Interest in scientific models and how they can be used to learn things. 
+- Simulation as a form of experiment is extremely interesting in relation to how we can use computers to learn about the physical world we find ourselves in.
 
 I am interested in how [scientific
 models](https://plato.stanford.edu/entries/models-science/) can be used to
