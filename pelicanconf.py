@@ -97,6 +97,9 @@ COLOR_SCHEME_CSS = 'tomorrow.css'
 # header colour
 HEADER_COLOR = '#07162B'
 
+# exclude notebook css
+IPYNB_IGNORE_CSS = True
+
 # custom css
 CSS_OVERRIDE = 'theme/css/ghpages.css'
 
