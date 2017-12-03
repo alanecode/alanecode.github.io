@@ -92,7 +92,7 @@ ARTICLE_EXCLUDES = [
     ]
 
 # colour scheme for code highlights
-COLOR_SCHEME_CSS = 'tomorrow.css'
+COLOR_SCHEME_CSS = 'github_jekyll.css'
 
 # header colour
 HEADER_COLOR = '#07162B'
