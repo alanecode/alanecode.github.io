@@ -2,6 +2,7 @@ Title: Projects
 Modified: 2017-11-26 17:30
 Slug: projects
 Authors: Andrew Lane
+Header_Cover: /images/rozas_y_castillas.jpg
 
 - Talk about the projects I'm currently involved in
 

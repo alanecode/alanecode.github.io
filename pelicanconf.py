@@ -95,7 +95,10 @@ ARTICLE_EXCLUDES = [
 COLOR_SCHEME_CSS = 'github_jekyll.css'
 
 # header colour
-HEADER_COLOR = '#07162B'
+#HEADER_COLOR = '#07162B'
+
+# header image
+HEADER_COVER = 'images/rozas_y_castillas.jpg'
 
 # exclude notebook css
 IPYNB_IGNORE_CSS = True
